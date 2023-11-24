@@ -1,12 +1,12 @@
 {
-  "name": "log",
-  "version": "1.2.0",
+  "name": "activity-log",
+  "version": "1.2.2",
   "description": "This is the description of the plugin.",
   "strapi": {
-    "name": "log",
-    "description": "Description of Log plugin",
+    "name": "activity-log",
+    "description": "Description of activity-log plugin",
     "kind": "plugin",
-    "displayName": "Log"
+    "displayName": "activity-log"
   },
   "dependencies": {
     "@strapi/design-system": "^1.6.3",
