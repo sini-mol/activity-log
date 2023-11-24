@@ -9,7 +9,7 @@ The plugin can be tested in strapi version 4.13.3, node vesrion above 18.0.0 and
 # To Install
 
     1.Go into your strapi project.
-    2.Run the npm command npm i activity data-log
+    2.Run the npm command npm i activity-data-log
     3.The plugin will be added to your strapi project.
 
 # Note
