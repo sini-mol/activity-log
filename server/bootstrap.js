@@ -1,7 +1,6 @@
 "use strict";
-const PLUGIN_ID = "log";
-const { flattenObject } = require("./../../flattenobject");
-const CUSTOM_LINKS_UID = "plugin::log.log-activity";
+const PLUGIN_ID = "activity-log";
+const CUSTOM_LINKS_UID = "plugin::activity-log.log-activity";
 const {diff} = require("deep-object-diff");
 
 module.exports = async ({ strapi }) => {
