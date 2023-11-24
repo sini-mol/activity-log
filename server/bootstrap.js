@@ -66,10 +66,7 @@ module.exports = async ({ strapi }) => {
             model: event?.model?.tableName,
           },
         });
-        console.log('after',logger?.after_data)
-        console.log('before',logger?.before_data)
         const differences = diff(logger?.before_data, logger?.after_data);
-        console.log("Differences:", differences);
         await loggerCollection.update({
           where : {
             id : logger?.id
