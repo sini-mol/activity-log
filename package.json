@@ -1,12 +1,12 @@
 {
-  "name": "activity-log",
-  "version": "2.2.2",
+  "name": "audit-log",
+  "version": "2.2.0",
   "description": "This is the description of the plugin.",
   "strapi": {
-    "name": "activity-log",
-    "description": "Description of activity-log plugin",
+    "name": "audit-log",
+    "description": "Description of audit-log plugin",
     "kind": "plugin",
-    "displayName": "activity-log"
+    "displayName": "audit-log"
   },
   "dependencies": {
     "@strapi/design-system": "^1.6.3",

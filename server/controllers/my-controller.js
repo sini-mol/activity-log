@@ -1,5 +1,5 @@
 "use strict";
-const CUSTOM_LINKS_UID = "plugin::activity-log.log-activity";
+const CUSTOM_LINKS_UID = "plugin::audit-log.log-activity";
 module.exports = ({ strapi }) => ({
   index(ctx) {
     ctx.body = strapi.plugin("log").service("myService").getWelcomeMessage();
