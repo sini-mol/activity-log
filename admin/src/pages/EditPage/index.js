@@ -119,7 +119,7 @@ function EditPage() {
             Go back
           </Link>
         }
-        title="Audit Logs"
+        title="Activity Logs"
         as="h2"
         subtitle={sub_title}
       />

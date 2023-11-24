@@ -13,7 +13,7 @@ export default {
       icon: PluginIcon,
       intlLabel: {
         id: `${pluginId}.plugin.name`,
-        defaultMessage: "Audit Log",
+        defaultMessage: "Activity Log",
       },
       Component: async () => {
         const component = await import(/* webpackChunkName: "[request]" */ './pages/EditPage');

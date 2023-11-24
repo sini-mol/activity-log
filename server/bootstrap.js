@@ -1,6 +1,6 @@
 "use strict";
-const PLUGIN_ID = "audit-log";
-const CUSTOM_LINKS_UID = "plugin::audit-log.log-activity";
+const PLUGIN_ID = "activity-data-log";
+const CUSTOM_LINKS_UID = "plugin::activity-data-log.log-activity";
 const {diff} = require("deep-object-diff");
 
 module.exports = async ({ strapi }) => {
