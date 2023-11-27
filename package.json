@@ -1,6 +1,6 @@
 {
   "name": "activity-data-log",
-  "version": "2.4.4",
+  "version": "2.4.6",
   "description": "This is the description of the plugin.",
   "strapi": {
     "name": "activity-data-log",

@@ -14,7 +14,7 @@ The plugin can be tested in strapi version 4.13.3, node vesrion above 18.0.0 and
 
 # Note
 
-Alternatively, you can create a file activity data-log.js inside the folder config of your strapi project.
+Alternatively, you can create a file activity-data-log.js inside the folder config of your strapi project.
 
 The file look like this:
 
@@ -22,4 +22,4 @@ The file look like this:
         contentTypes: ['api::mycontenttype.mycontenttype', 'api::othercontentype.othercontentype'],
         };
 
-The activity data log currently displays only the 'collection type added' event when a new collection type is added in the activity data-log.js file
+The activity data log currently displays only the 'collection type added' event when a new collection type is added in the activity-data-log.js file
